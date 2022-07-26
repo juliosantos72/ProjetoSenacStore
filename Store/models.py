@@ -2,6 +2,7 @@ from distutils.command.upload import upload
 from pyexpat import model
 from tkinter import image_names
 from django.db import models
+from Store.models import Departamento 
 
 # Create your models here.
 class Departamento(models.Model):
